@@ -242,6 +242,7 @@ body.scroll .start-ups {
 }
 
 /* ABOUT SECTION */
+
 .col {
   display:  flex;
   flex-direction:  column;
@@ -272,6 +273,16 @@ body.scroll .start-ups {
 
 .row img, .row p {
   width: 40%;
+}
+
+a.social {
+  color: rgb(231, 176, 53);
+  border-bottom:  1px solid transparent;
+  transition: border-bottom 0.5s ease-in-out;
+}
+
+a.social:hover {
+  border-bottom: 1px solid rgb(231, 176, 53);
 }
 
 /* Footer Start */
